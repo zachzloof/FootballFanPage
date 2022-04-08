@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>FootballFanPage</title>
+</head>
+<body style="background-color: lightgreen;">
+    <div class="container-sm px-4">
+    <form>
+    <fieldset id = "fieldset1">
+    <div id="uno" class="form-floating">
+        <input id="input_1" class="form-control" type="number" placeholder="1" style="background-color: #37C2CC;" />
+        <label for = "input_1">Please enter the ID of the match you would like to see</label>
+      </div>
+      <div class="col">
+        <button id="buttonGet" class="w-100 btn btn-lg btn-success" type="button" style="margin-bottom: 2%; margin-top: 2%;">Watch now!</button>
+      </div>
+      <button id="buttonGetList" class="w-100 btn btn-lg btn-success" type="button">Show me the list!</button>
+      <a href="./index2.html" class="btn btn-primary">Take me back!</a>
+      <ol style="text-align: center; list-style-position: inside;"></ol>
+      <p id="output"></p>
+    </fieldset>
+    </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="text/JavaScript" src="./script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
+
